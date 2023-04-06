@@ -1,0 +1,94 @@
+.wallpaper-container{
+    position: relative;
+}
+
+.wallpaper{
+    width: 100%;
+
+}
+
+.cloud1{
+    position: absolute;
+    left: 600px;
+    top:200px;
+    width: 600px;
+    animation: cloud 20s linear infinite;
+}
+@keyframes cloud{
+    0%   {top: 200px; left: 600px; }
+    5%   {top: 205px; left: 603px; }
+    10%  {top: 207px; left: 605px; }
+    15%  {top: 210px; left: 608px; }
+    20%  {top: 212px; left: 615px; }
+    25%  {top: 215px; left: 618px; }
+    30%  {top: 219px; left: 622px; }
+    35%  {top: 222px; left: 625px; }
+    40%  {top: 225px; left: 628px; }
+    45%  {top: 230px; left: 620px; }
+    50%  {top: 234px; left: 623px;}
+    55%  {top: 230px; left: 620px; }
+    60%  {top: 223px; left: 628px; }
+    65%  {top: 225px; left: 628px; }
+    70%  {top: 222px; left: 625px; }
+    75%  {top: 219px; left: 622px; }
+    80%  {top: 215px; left: 618px; }
+    85%  {top: 212px; left: 615px; }
+    90%  {top: 210px; left: 608px; }
+    95%  {top: 207px; left: 605px; }
+    100%  {top: 200px; left: 600px; }
+}
+.branch{
+    position: absolute;
+    right: 0;
+    top:200px;
+    width: 600px;
+}
+.stars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:300px;
+}
+.stars-2{
+    position: absolute;
+    left: 400px;
+    top: 0;
+    height:300px;
+}
+.stars-3{
+    position: absolute;
+    left: 988px;
+    top: 0;
+    height:300px;
+}
+.swan{
+    position: absolute;
+    right: 0;
+    bottom: 120px;
+    height:70px;
+    animation: swanMove 150s linear infinite 0.3s;
+}
+@keyframes swanMove {
+    from {transform: translateX(0);}
+    to{transform: translateX(-1800px);}
+  }
+.cherry1{
+    position: absolute;
+    right: 0;
+    top: 400px;
+    width: 500px;
+    animation: cherry 20s infinite linear;
+}
+
+.cherry2{
+
+    position: absolute;
+    width: 200px;
+    right: 0;
+    top: 350px;
+    animation: cherry 20s infinite linear;
+}
+@keyframes cherry{
+    from {transform: translate(0,0); }
+    to {transform: translate(-200px,180px);}
+}
