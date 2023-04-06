@@ -9,33 +9,14 @@
 
 .cloud1{
     position: absolute;
-    left: 30%;
-    top:40%;
+    left: 37%;
+    top: 26%;
     width: 35%;
-    animation: cloud 20s linear infinite;
+    animation: cloud 20s linear infinite alternate;
 }
 @keyframes cloud{
-    0%   {top: 200px; left: 600px; }
-    5%   {top: 205px; left: 603px; }
-    10%  {top: 207px; left: 605px; }
-    15%  {top: 210px; left: 608px; }
-    20%  {top: 212px; left: 615px; }
-    25%  {top: 215px; left: 618px; }
-    30%  {top: 219px; left: 622px; }
-    35%  {top: 222px; left: 625px; }
-    40%  {top: 225px; left: 628px; }
-    45%  {top: 230px; left: 620px; }
-    50%  {top: 234px; left: 623px;}
-    55%  {top: 230px; left: 620px; }
-    60%  {top: 223px; left: 628px; }
-    65%  {top: 225px; left: 628px; }
-    70%  {top: 222px; left: 625px; }
-    75%  {top: 219px; left: 622px; }
-    80%  {top: 215px; left: 618px; }
-    85%  {top: 212px; left: 615px; }
-    90%  {top: 210px; left: 608px; }
-    95%  {top: 207px; left: 605px; }
-    100%  {top: 200px; left: 600px; }
+    from{transform: translate(0,0);}
+    to{transform: translate(30px, 20px);}    
 }
 .cloud2{
     position: absolute;
@@ -75,7 +56,7 @@
 .swan{
     position: absolute;
     right: 0;
-    bottom: 120px;
+    bottom: 10%;
     height: 7%;
     animation: swanMove 150s linear infinite 0.3s;
 }
@@ -101,5 +82,5 @@
 }
 @keyframes cherry{
     from {transform: translate(0,0); }
-    to {transform: translate(-200px,180px);}
+    to {transform: translate(-50%,50%);}
 }
