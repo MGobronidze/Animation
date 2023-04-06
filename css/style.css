@@ -9,9 +9,9 @@
 
 .cloud1{
     position: absolute;
-    left: 600px;
-    top:200px;
-    width: 600px;
+    left: 30%;
+    top:40%;
+    width: 35%;
     animation: cloud 20s linear infinite;
 }
 @keyframes cloud{
@@ -37,35 +37,46 @@
     95%  {top: 207px; left: 605px; }
     100%  {top: 200px; left: 600px; }
 }
+.cloud2{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 15%;
+    animation: cloud2 70s linear infinite;
+}
+@keyframes cloud2 {
+    from{ transform: translate(0,0);}
+    to{transform: translate(-1388px, 10px);}
+}
 .branch{
     position: absolute;
-    right: 0;
-    top:200px;
-    width: 600px;
+    right: 0%;
+    top:25%;
+    width: 30%;
 }
 .stars{
     position: absolute;
     top: 0;
     left: 0;
-    height:300px;
+    height:30%;
 }
 .stars-2{
     position: absolute;
-    left: 400px;
+    left: 30%;
     top: 0;
-    height:300px;
+    height:30%;
 }
 .stars-3{
     position: absolute;
-    left: 988px;
+    left: 60%;
     top: 0;
-    height:300px;
+    height:30%;
 }
 .swan{
     position: absolute;
     right: 0;
     bottom: 120px;
-    height:70px;
+    height: 7%;
     animation: swanMove 150s linear infinite 0.3s;
 }
 @keyframes swanMove {
@@ -75,17 +86,17 @@
 .cherry1{
     position: absolute;
     right: 0;
-    top: 400px;
-    width: 500px;
+    top: 40%;
+    width: 30%;
     animation: cherry 20s infinite linear;
 }
 
 .cherry2{
 
     position: absolute;
-    width: 200px;
+    width: 10%;
     right: 0;
-    top: 350px;
+    top: 38%;
     animation: cherry 20s infinite linear;
 }
 @keyframes cherry{
